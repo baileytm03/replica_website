@@ -1,3 +1,17 @@
 body{
 font-family: 'Roboto', sans-serif;
 }
+
+.header{
+    align-items: center;
+}
+.headerlogo{
+    flex: 1;
+    font-size: 24px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 40px;
+}
