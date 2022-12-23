@@ -3,15 +3,57 @@ font-family: 'Roboto', sans-serif;
 }
 
 .header{
-    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 .headerlogo{
     flex: 1;
     font-size: 24px;
 }
+
 .links{
     display: flex;
     justify-content: flex-end;
     flex: 1;
     gap: 40px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+.s1_1{
+    font-size: 48px;
+}
+
+.s1_2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.s1text{
+    display: flex;
+    flex-direction: column;
+    width: 400px;   
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+a{
+    color: inherit;
 }
