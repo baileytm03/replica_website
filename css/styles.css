@@ -140,6 +140,7 @@ img{
 
 .section4{
    padding-top: 50px;
+   padding-bottom: 50px;
 }
 
 .section4box{
@@ -169,6 +170,15 @@ img{
     border-radius: 5px;
     
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+}
+
 
 a{
     color: inherit;
